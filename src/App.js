@@ -6,6 +6,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Single from './pages/Single';
 import Write from './pages/Write';
+import './style.scss';
 
 const Layout = () => {
   return (
@@ -49,8 +50,9 @@ function App() {
 
   return (
     <div className="app">
-      <div className="container"></div>
-      <RouterProvider router={router} />
+      <div className="container">
+        <RouterProvider router={router} />
+      </div>
     </div>
   );
 }
