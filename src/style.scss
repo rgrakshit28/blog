@@ -3,9 +3,8 @@ $lightGreen: #b9e7e7;
 .app {
   display: flex;
   justify-content: center;
-
   .container {
-    width: 1024px;
+    width: 70vw;
 
     .link {
       text-decoration: none;
@@ -320,10 +319,11 @@ $lightGreen: #b9e7e7;
 
         .editorContainer {
           height: 300px;
-          border: 1px solid lightgray;
+          border: 1px lightgray;
 
           .editor {
             height: 260px;
+            width: 50vw;
             border: none;
           }
         }
