@@ -3,8 +3,9 @@ $lightGreen: #b9e7e7;
 .app {
   display: flex;
   justify-content: center;
+
   .container {
-    width: 100%;
+    width: 1024px;
 
     .link {
       text-decoration: none;
